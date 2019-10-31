@@ -1,0 +1,29 @@
+{
+  "name": "preprocessorjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js --mode=production",
+    "start": "webpack --config webpack.config.js --mode=production --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malekylik/preprocessorjs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/malekylik/preprocessorjs/issues"
+  },
+  "homepage": "https://github.com/malekylik/preprocessorjs#readme",
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "clean-webpack-plugin": "^3.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "typescript": "^3.6.4"
+  }
+}
